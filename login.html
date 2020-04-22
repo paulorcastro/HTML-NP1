@@ -14,19 +14,45 @@
 </head>
 
 <body>
-    <form action="/dadosLogin" method="post">
-        <div>
-            <label for="cpf/email">Email/CPF:</label>
-            <input type="text" id="cpf/email" />
+    <header class="headerDesktop">
+        <div class="menu">
+            <a href="index.html" id="logo">
+                <img src="images/logo.png" id="logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="cadastro.html">CADASTRAR</a>
+                </li>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+            </ul>
         </div>
+    </header>
+    <div id="login">
 
-        <div>
-            <label for="senha">Senha:</label>
-            <input type="senha" id="senha" />
-        </div>
-        </div>
-        <div class="button">
-            <button type="submit">Entrar</button>
-        </div>
-    </form>
+        <h1>LOGIN</h1>
+        
+        <section class="formulario">
+            
+            <form action="/dadosLogin" method="post">
+                
+                <div>
+                    <label for="cpf/email">Email/CPF:</label>
+                    <input type="text" id="cpf/email" />
+                </div>
+        
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="senha" id="senha" />
+                </div>
+                
+                <div class="button">
+                    <button>Entrar</button>
+                </div>
+            </form>
+        </section>
+       
+    </div>
+    
 </body>
