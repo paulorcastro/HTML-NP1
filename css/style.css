@@ -161,10 +161,10 @@ img {
 }
 
 .conjuntoDePropaganda {
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
-    width: auto;
+    width: 80%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
     padding: 10px;
     background: rgb(243, 242, 238);
@@ -279,4 +279,11 @@ img {
 .hrMain {
     margin: 30px 10px 10px 10px;
     border-top: 1px dotted rgb(0, 0, 0, 0.486);
+    height: 10pxx;
+
+    
+}
+
+#footerImage{
+    width: 5px;
 }
