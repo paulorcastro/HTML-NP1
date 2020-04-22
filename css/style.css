@@ -14,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 ul {
@@ -49,7 +50,6 @@ img {
 }
 
 .menu ul li {
-    color: rgb(0, 0, 0);
     font-weight: normal;
     margin-top: 0.5px;
     margin-left: 0.5px;
@@ -161,10 +161,10 @@ img {
 }
 
 .conjuntoDePropaganda {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-top: 20px;
-    width: 80%;
+    width: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
     padding: 10px;
     background: rgb(243, 242, 238);
@@ -174,8 +174,9 @@ img {
 
 
 .propaganda ul {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
     /* background-color: lightcoral; */
 }
 
@@ -226,6 +227,9 @@ img {
 .textPropaganda h4:hover {
     color: rgb(125, 158, 63);
 }
+
+
+/* footer */
 
 .footer {
     background-color: rgb(125, 158, 63);
