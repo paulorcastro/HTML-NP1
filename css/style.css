@@ -133,6 +133,10 @@ img {
     left: 45%;
     position: absolute;
     transform: translateX(-45%);
+    border-left: 1px solid rgb(125, 158, 63);
+    border-top: 1px solid rgb(125, 158, 63);
+    border-bottom: 1px solid rgb(125, 158, 63);
+    border-radius: 10px 13px 13px 10px;
 }
 
 .divBusca {
@@ -141,13 +145,8 @@ img {
     min-height: 42px;
     min-width: 358px;
     background-color: #ffffff;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 13px 13px 10px;
 }
-
-
-/* margin-left: 30%;
-margin-right: auto;
-text-align: center; */
 
 .btnBusca {
     width: auto;
@@ -161,7 +160,6 @@ text-align: center; */
     font-weight: bold;
     color: #FFF;
     border: none;
-    position: absolute;
 }
 
 .btnBusca:hover {
@@ -306,6 +304,7 @@ figure.foto_legenda figcaption p {
 /* footer */
 
 .footer {
+    position: absolute;
     background-color: rgb(125, 158, 63);
     width: 100%;
     height: 100px;
