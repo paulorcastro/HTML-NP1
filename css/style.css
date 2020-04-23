@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Comic+Neue:700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -80,10 +79,11 @@ img {
     position: relative;
     overflow: hidden;
 }
-.slider h1{
+
+.slider h1 {
     font-family: 'Comic Neue', cursive;
     color: rgb(92, 114, 47);
-    text-shadow: 0.1em 0.1em 0.1em rgb(34, 47, 6);
+    text-shadow: 0.1em 0.1em 0.1em rgba(255, 255, 255, 0.664);
     font-size: 30pt;
 }
 
@@ -195,11 +195,9 @@ img {
 }
 
 .images {
-    padding: 10px 5px 0px 5px;
+    padding: 10px 5px 10px 5px;
     width: 369px;
     height: 240px;
-    margin-right: 20px;
-    margin-left: 20px;
     /* background-color: rgb(154, 240, 128); */
 }
 
@@ -208,9 +206,11 @@ img {
     width: auto;
     /* background-color: rgb(235, 196, 23); */
 }
-.textPropaganda{
+
+.textPropaganda {
     margin-bottom: 60px;
 }
+
 .textPropaganda h3 {
     font-size: 18px;
     font-weight: normal;
@@ -271,7 +271,6 @@ img {
     width: 100px;
     height: 100px;
     float: left;
-   
 }
 
 .footer ul {
@@ -297,20 +296,9 @@ img {
 }
 
 
-/* CSS do Cadastro e Login*/
-
-
 /* CSS do Castdastro e Login*/
 
-#cadastro h1 {
-    text-align: center;
-    font-size: 20pt;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(125, 158, 63);
-}
-
-#login h1 {
+#cadastrologin h1 {
     text-align: center;
     font-size: 20pt;
     margin-top: 20px;
@@ -324,7 +312,7 @@ section.formulario {
     margin-top: 30px;
     width: 500px;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(125, 158, 63);
     border-radius: 1em;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.486);
 }
@@ -351,11 +339,23 @@ section.formulario form div+div {
 }
 
 section.formulario button {
-    margin-left: .5em;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 10pt;
+    background-color: rgb(125, 158, 63);
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 section.formulario .button {
-    padding-left: 90px;
+    text-align: center;
 }
 
 
