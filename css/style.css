@@ -220,6 +220,7 @@ text-align: center; */
     margin-right: 0.2%;
     max-width: 369px;
     max-height: 364px;
+    
     /* background-color: rgb(128, 148, 240); */
 }
 
@@ -234,6 +235,8 @@ figure.foto_legenda img {
     padding: 10px 5px 10px 5px;
     width: 369px;
     height: 240px;
+    
+    
     /* background-color: indigo; */
 }
 
