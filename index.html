@@ -38,53 +38,93 @@
         <div class="slogan">
             <h1>A HORTA NA PORTA DA SUA CASA</h1>
         </div>
-        <div class="divBusca">
-            <img src="images/search3.png" alt="Buscar..." id="search" />
-            <input type="text" class="txtBusca" placeholder="Buscar..." list="historico" />
-            <datalist id="historico">
-                <option value="Morango"></option>
-                <option value="Abóboras"></option>
-                <option value="Beterraba"></option>
-                <option value="Alface"></option>
-            </datalist>
-        </div>
+        <section class="busca">
+            <div class="divBusca">
+                <img src="images/search3.png" alt="Buscar..." id="search" />
+                <input type="search" class="txtBusca" name="busca" placeholder="Buscar..." list="historico" required/>
+                <input type="submit" name="enviar" value="Pesquisar" class="btnBusca">
+                <datalist id="historico">
+            <option value="Morango"></option>
+            <option value="Abóboras"></option>
+            <option value="Beterraba"></option>
+            <option value="Alface"></option>
+        </datalist>
+            </div>
+        </section>
+
     </section>
     <section class="conjuntoDePropaganda">
         <div id="textopropaganda">Entrega de pedidos no Distrito Federal</div>
         <div class="propaganda">
             <ul>
                 <li>
-                    <a href="abobora.html"><img class="images" src="images/Frut04.jpg" alt="04.jpg" />
-                        <div class="textPropaganda">
-                            <h3>Abóboras do Junior</h3>
-                            <h4>Abóboras orgânicas</h4>
-                        </div>
-                    </a>
+                    <figure class="foto_legenda">
+                        <a href="abobora.html">
+                            <img src="images/Frut04.jpg" alt="04.jpg" />
+                            <div class="textPropaganda">
+                                <h3>Abóboras do Junior</h3>
+                                <h4>Abóboras orgânicas</h4>
+                            </div>
+                            <figcaption>
+                                <h3>Abóboras do Junior</h3>
+                                <p>Hortaliça que faz parte da família das Curcubataceas, as abóboras são um grupo diversificado em tipos e propriedades. Elas são ricas em carotenoides, que são os pigmentos que lhe conferem a cor laranja e tem alto poder
+                                    antioxidante.
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
                 </li>
                 <li>
-                    <a href="morango.html"><img class="images" src="images/Frut05.jpg" alt="05.jpg" />
-                        <div class="textPropaganda">
-                            <h3>Morangos do Mayke</h3>
-                            <h4>Morangos orgânicos</h4>
-                        </div>
-                    </a>
+                    <figure class="foto_legenda">
+                        <a href="morango.html">
+                            <img src="images/Frut05.jpg" alt="05.jpg" />
+                            <div class="textPropaganda">
+                                <h3>Morangos do Mayke</h3>
+                                <h4>Morangos orgânicos</h4>
+                            </div>
+                            <figcaption>
+                                <h3>Morangos do Mayke</h3>
+                                <p>Da família da Rosaceae , por ter coloração vermelha, a fruta entra no grupo de alimentos funcionais que contêm antocianina.
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
                 </li>
                 <li>
-                    <a href="beterraba.html"><img class="images" src="images/Frut06.jpg" alt="06.jpg" />
-                        <div class="textPropaganda">
-                            <h3>Beterraba do Yuri</h3>
-                            <h4>Beterraba orgânicas</h4>
-                        </div>
-                    </a>
+                    <figure class="foto_legenda">
+                        <a href="beterraba.html">
+                            <img src="images/Frut06.jpg" alt="06.jpg" />
+                            <div class="textPropaganda">
+                                <h3>Beterraba do Yuri</h3>
+                                <h4>Beterraba orgânicas</h4>
+                            </div>
+                            <figcaption>
+                                <h3>Beterraba do Yuri</h3>
+                                <p>
+                                    Da família das Quenopodiáceas a beterraba é rica em açúcares. Destaca-se como uma das hortaliças mais ricas em ferro, tanto na raiz quanto nas folhas.
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
                 </li>
                 <li>
-                    <a href="alface.html"><img class="images" src="images/Frut0.jpg" alt="06.jpg" />
-                        <div class="textPropaganda">
-                            <h3>Alface do Paulo</h3>
-                            <h4>Alface orgânicos</h4>
-                        </div>
-                    </a>
+                    <figure class="foto_legenda">
+                        <a href="alface.html">
+                            <img src="images/Frut0.jpg" alt="06.jpg" />
+                            <div class="textPropaganda">
+                                <h3>Alface do Paulo</h3>
+                                <h4>Alface orgânicos</h4>
+                            </div>
+                            <figcaption class="foto_legenda">
+                                <h3>Alface do Paulo</h3>
+                                <p>
+                                    Da família das Quenopodiáceas a beterraba é rica em açúcares. Destaca-se como uma das hortaliças mais ricas em ferro, tanto na raiz quanto nas folhas.
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
                 </li>
+
             </ul>
         </div>
         <div class="lista">
