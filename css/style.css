@@ -164,6 +164,7 @@ img {
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
     padding: 10px;
@@ -189,6 +190,8 @@ img {
     padding: 10px 5px 0px 5px;
     width: 369px;
     height: 240px;
+    margin-right: 20px;
+    margin-left: 20px;
     /* background-color: rgb(154, 240, 128); */
 }
 
@@ -197,7 +200,9 @@ img {
     width: auto;
     /* background-color: rgb(235, 196, 23); */
 }
-
+.textPropaganda{
+    margin-bottom: 60px;
+}
 .textPropaganda h3 {
     font-size: 18px;
     font-weight: normal;
@@ -249,15 +254,16 @@ img {
 .footer {
     background-color: rgb(125, 158, 63);
     width: 100%;
-    height: 128px;
+    height: 100px;
 }
 
 #footerImage img {
     border-radius: 50px;
     padding: 10px 10px 10px 10px;
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
     float: left;
+   
 }
 
 .footer ul {
