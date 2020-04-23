@@ -209,8 +209,8 @@ text-align: center; */
 }
 
 .propaganda ul {
-    margin-left: 3%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
     /* background-color: lightcoral; */
 }
@@ -225,9 +225,6 @@ text-align: center; */
 }
 
 figure.foto_legenda {
- 
-    
-       
     position: relative;
 }
 
