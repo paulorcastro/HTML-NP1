@@ -219,6 +219,7 @@ img {
     margin-right: 0.2%;
     max-width: 369px;
     max-height: 364px;
+    
     /* background-color: rgb(128, 148, 240); */
 }
 
@@ -230,15 +231,17 @@ figure.foto_legenda img {
     padding: 10px 5px 10px 5px;
     width: 369px;
     height: 240px;
+    
+    
     /* background-color: indigo; */
 }
 
 figure.foto_legenda figcaption {
-    opacity: 0%;
+    opacity: 0;
     position: absolute;
     top: 10px;
     background-color: rgba(192, 192, 192, 0.5);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 251);
     width: 100%;
     height: 100%;
     padding: 10px;
